@@ -1,0 +1,497 @@
+-- Don't edit anything
+-- Version: 1.0
+
+-- Instances:
+
+local Illum2GUI = Instance.new("ScreenGui")
+local ExploitFrame = Instance.new("Frame")
+local CyanCrystalNormal = Instance.new("TextButton")
+local CyanCrystalDarkcore = Instance.new("TextButton")
+local CyanUnstable = Instance.new("TextButton")
+local BlueNormal = Instance.new("TextButton")
+local BlueDarkcore = Instance.new("TextButton")
+local blueunstable = Instance.new("TextButton")
+local pinknormal = Instance.new("TextButton")
+local pinkDarkCore = Instance.new("TextButton")
+local Pinkunstable = Instance.new("TextButton")
+local Rednormal = Instance.new("TextButton")
+local Reddarkcore = Instance.new("TextButton")
+local Redunstable = Instance.new("TextButton")
+local YellowNormal = Instance.new("TextButton")
+local YellowDarkcore = Instance.new("TextButton")
+local YellowUnstable = Instance.new("TextButton")
+local WhiteNormal = Instance.new("TextButton")
+local WhiteDarkcore = Instance.new("TextButton")
+local WhiteUnstable = Instance.new("TextButton")
+local PurpleNormal = Instance.new("TextButton")
+local PurpleDarkcore = Instance.new("TextButton")
+local PurpleUnstable = Instance.new("TextButton")
+local OrangeNormal = Instance.new("TextButton")
+local OrangeDarkcore = Instance.new("TextButton")
+local OrangeUnstable = Instance.new("TextButton")
+local BlackNormal = Instance.new("TextButton")
+local BlackDarkcore = Instance.new("TextButton")
+local BlackUnstable = Instance.new("TextButton")
+local GreenNormal = Instance.new("TextButton")
+local GreenDarkcore = Instance.new("TextButton")
+local GreenUnstable = Instance.new("TextButton")
+local Credits = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+Illum2GUI.Name = "Illum2GUI"
+Illum2GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Illum2GUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ExploitFrame.Name = "ExploitFrame"
+ExploitFrame.Parent = Illum2GUI
+ExploitFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExploitFrame.BackgroundTransparency = 0.670
+ExploitFrame.BorderColor3 = Color3.fromRGB(72, 0, 0)
+ExploitFrame.BorderSizePixel = 9
+ExploitFrame.Position = UDim2.new(0.196575776, 0, 0.0970760211, 0)
+ExploitFrame.Size = UDim2.new(0, 1024, 0, 702)
+ExploitFrame.Active = true
+ExploitFrame.Draggable = true
+
+CyanCrystalNormal.Name = "CyanCrystalNormal"
+CyanCrystalNormal.Parent = ExploitFrame
+CyanCrystalNormal.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+CyanCrystalNormal.BackgroundTransparency = 0.600
+CyanCrystalNormal.Size = UDim2.new(0, 200, 0, 50)
+CyanCrystalNormal.Font = Enum.Font.Code
+CyanCrystalNormal.Text = "Cyan Crystal [NORMAL]"
+CyanCrystalNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+CyanCrystalNormal.TextSize = 14.000
+CyanCrystalNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2154.06934, 202.190063, -289.159485, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+CyanCrystalDarkcore.Name = "CyanCrystalDarkcore"
+CyanCrystalDarkcore.Parent = ExploitFrame
+CyanCrystalDarkcore.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+CyanCrystalDarkcore.BackgroundTransparency = 0.600
+CyanCrystalDarkcore.Position = UDim2.new(0, 0, 0.0854700878, 0)
+CyanCrystalDarkcore.Size = UDim2.new(0, 200, 0, 50)
+CyanCrystalDarkcore.Font = Enum.Font.Code
+CyanCrystalDarkcore.Text = "Cyan Crystal [DARKCORE]"
+CyanCrystalDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+CyanCrystalDarkcore.TextSize = 14.000
+CyanCrystalDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2080.95703, 251.560059, 797.890442, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+CyanUnstable.Name = "CyanUnstable"
+CyanUnstable.Parent = ExploitFrame
+CyanUnstable.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+CyanUnstable.BackgroundTransparency = 0.600
+CyanUnstable.Position = UDim2.new(0, 0, 0.185185194, 0)
+CyanUnstable.Size = UDim2.new(0, 200, 0, 50)
+CyanUnstable.Font = Enum.Font.Code
+CyanUnstable.Text = "Cyan Crystal [UNSTABLE]"
+CyanUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+CyanUnstable.TextSize = 14.000
+CyanUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-475.947693, 41.4400024, 743.890625, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+BlueNormal.Name = "BlueNormal"
+BlueNormal.Parent = ExploitFrame
+BlueNormal.BackgroundColor3 = Color3.fromRGB(0, 110, 255)
+BlueNormal.BackgroundTransparency = 0.600
+BlueNormal.Position = UDim2.new(0, 0, 0.280626804, 0)
+BlueNormal.Size = UDim2.new(0, 200, 0, 50)
+BlueNormal.Font = Enum.Font.Code
+BlueNormal.Text = "Blue Crystal [NORMAL]"
+BlueNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlueNormal.TextSize = 14.000
+BlueNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2583.41577, 87.6329651, -1463.11414, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+BlueDarkcore.Name = "BlueDarkcore"
+BlueDarkcore.Parent = ExploitFrame
+BlueDarkcore.BackgroundColor3 = Color3.fromRGB(0, 110, 255)
+BlueDarkcore.BackgroundTransparency = 0.600
+BlueDarkcore.Position = UDim2.new(0, 0, 0.378917366, 0)
+BlueDarkcore.Size = UDim2.new(0, 200, 0, 50)
+BlueDarkcore.Font = Enum.Font.Code
+BlueDarkcore.Text = "Blue Crystal [DARKCORE]"
+BlueDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlueDarkcore.TextSize = 14.000
+BlueDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1293.32727, 155.970093, 179.810501, 1, 0, 0, 0, 1, 0, 0, 0, 11)
+end)
+
+
+blueunstable.Name = "blueunstable"
+blueunstable.Parent = ExploitFrame
+blueunstable.BackgroundColor3 = Color3.fromRGB(0, 110, 255)
+blueunstable.BackgroundTransparency = 0.600
+blueunstable.Position = UDim2.new(0, 0, 0.47863248, 0)
+blueunstable.Size = UDim2.new(0, 200, 0, 50)
+blueunstable.Font = Enum.Font.Code
+blueunstable.Text = "Blue Crystal [UNSTABLE]"
+blueunstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+blueunstable.TextSize = 14.000
+blueunstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1938.19727, -48.6999741, 94.2305603, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+pinknormal.Name = "pinknormal"
+pinknormal.Parent = ExploitFrame
+pinknormal.BackgroundColor3 = Color3.fromRGB(245, 128, 255)
+pinknormal.BackgroundTransparency = 0.600
+pinknormal.Position = UDim2.new(0, 0, 0.566951573, 0)
+pinknormal.Size = UDim2.new(0, 200, 0, 50)
+pinknormal.Font = Enum.Font.Code
+pinknormal.Text = "Pink Crystal [NORMAL]"
+pinknormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+pinknormal.TextSize = 14.000
+pinknormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1935.22717, 134.600021, 446.420685, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+pinkDarkCore.Name = "pinkDarkCore"
+pinkDarkCore.Parent = ExploitFrame
+pinkDarkCore.BackgroundColor3 = Color3.fromRGB(245, 128, 255)
+pinkDarkCore.BackgroundTransparency = 0.600
+pinkDarkCore.Position = UDim2.new(0, 0, 0.64957267, 0)
+pinkDarkCore.Size = UDim2.new(0, 200, 0, 50)
+pinkDarkCore.Font = Enum.Font.Code
+pinkDarkCore.Text = "Pink Crystal [DARKCORE]"
+pinkDarkCore.TextColor3 = Color3.fromRGB(0, 0, 0)
+pinkDarkCore.TextSize = 14.000
+pinkDarkCore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2931.7666, 161.017227, -165.043549, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+Pinkunstable.Name = "Pinkunstable"
+Pinkunstable.Parent = ExploitFrame
+Pinkunstable.BackgroundColor3 = Color3.fromRGB(245, 128, 255)
+Pinkunstable.BackgroundTransparency = 0.600
+Pinkunstable.Position = UDim2.new(0, 0, 0.739316285, 0)
+Pinkunstable.Size = UDim2.new(0, 200, 0, 50)
+Pinkunstable.Font = Enum.Font.Code
+Pinkunstable.Text = "Pink Crystal [UNSTABLE]"
+Pinkunstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pinkunstable.TextSize = 14.000
+Pinkunstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.13745, 155.799957, 517.140564, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Rednormal.Name = "Rednormal"
+Rednormal.Parent = ExploitFrame
+Rednormal.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Rednormal.BackgroundTransparency = 0.600
+Rednormal.Position = UDim2.new(0, 0, 0.826210856, 0)
+Rednormal.Size = UDim2.new(0, 200, 0, 42)
+Rednormal.Font = Enum.Font.Code
+Rednormal.Text = "Red Crystal [NORMAL]"
+Rednormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rednormal.TextSize = 14.000
+Rednormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1590.04785, 278.079987, 4.2605114, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Reddarkcore.Name = "Reddarkcore" 
+Reddarkcore.Parent = ExploitFrame
+Reddarkcore.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Reddarkcore.BackgroundTransparency = 0.600
+Reddarkcore.Position = UDim2.new(0, 0, 0.897435963, 0)
+Reddarkcore.Size = UDim2.new(0, 200, 0, 50)
+Reddarkcore.Font = Enum.Font.Code
+Reddarkcore.Text = "Red Crystal [DARKCORE]"
+Reddarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reddarkcore.TextSize = 14.000
+Reddarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-658.207336, 168.259933, -1401.43933, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Redunstable.Name = "Redunstable"
+Redunstable.Parent = ExploitFrame
+Redunstable.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Redunstable.BackgroundTransparency = 0.600
+Redunstable.Position = UDim2.new(0.208007812, 0, -0.0014244318, 0)
+Redunstable.Size = UDim2.new(0, 200, 0, 50)
+Redunstable.Font = Enum.Font.Code
+Redunstable.Text = "Red Crystal [UNSTABLE]"
+Redunstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+Redunstable.TextSize = 14.000
+Redunstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(92.292511, -8.55000877, -678.99939, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+YellowNormal.Name = "YellowNormal"
+YellowNormal.Parent = ExploitFrame
+YellowNormal.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+YellowNormal.BackgroundTransparency = 0.600
+YellowNormal.Position = UDim2.new(0.208007812, 0, 0.084045656, 0)
+YellowNormal.Size = UDim2.new(0, 200, 0, 50)
+YellowNormal.Font = Enum.Font.Code
+YellowNormal.Text = "Yellow Crystal [NORMAL]"
+YellowNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+YellowNormal.TextSize = 14.000
+YellowNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1280.01782, 229.779968, 163.730499, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+YellowDarkcore.Name = "YellowDarkcore"
+YellowDarkcore.Parent = ExploitFrame
+YellowDarkcore.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+YellowDarkcore.BackgroundTransparency = 0.600
+YellowDarkcore.Position = UDim2.new(0.208007812, 0, 0.183760762, 0)
+YellowDarkcore.Size = UDim2.new(0, 200, 0, 50)
+YellowDarkcore.Font = Enum.Font.Code
+YellowDarkcore.Text = "Yellow Crystal [DARKCORE]"
+YellowDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+YellowDarkcore.TextSize = 14.000
+YellowDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1507.32666, 104.350082, 592.870605, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+YellowUnstable.Name = "YellowUnstable"
+YellowUnstable.Parent = ExploitFrame
+YellowUnstable.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+YellowUnstable.BackgroundTransparency = 0.600
+YellowUnstable.Position = UDim2.new(0.208007812, 0, 0.279202342, 0)
+YellowUnstable.Size = UDim2.new(0, 200, 0, 50)
+YellowUnstable.Font = Enum.Font.Code
+YellowUnstable.Text = "Yellow Crystal [UNSTABLE]"
+YellowUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+YellowUnstable.TextSize = 14.000
+YellowUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1102.33716, 261.820038, 1050.59009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+WhiteNormal.Name = "WhiteNormal"
+WhiteNormal.Parent = ExploitFrame
+WhiteNormal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteNormal.BackgroundTransparency = 0.600
+WhiteNormal.Position = UDim2.new(0.208007812, 0, 0.377492934, 0)
+WhiteNormal.Size = UDim2.new(0, 200, 0, 50)
+WhiteNormal.Font = Enum.Font.Code
+WhiteNormal.Text = "White Crystal [NORMAL]"
+WhiteNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+WhiteNormal.TextSize = 14.000
+WhiteNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1516.95789, 132.310074, 1229.59082, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+WhiteDarkcore.Name = "WhiteDarkcore"
+WhiteDarkcore.Parent = ExploitFrame
+WhiteDarkcore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteDarkcore.BackgroundTransparency = 0.600
+WhiteDarkcore.Position = UDim2.new(0.208007812, 0, 0.477208018, 0)
+WhiteDarkcore.Size = UDim2.new(0, 200, 0, 50)
+WhiteDarkcore.Font = Enum.Font.Code
+WhiteDarkcore.Text = "White Crystal [DARKCORE]"
+WhiteDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+WhiteDarkcore.TextSize = 14.000
+WhiteDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(450.322662, 195.170044, -1143.57898, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+WhiteUnstable.Name = "WhiteUnstable"
+WhiteUnstable.Parent = ExploitFrame
+WhiteUnstable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteUnstable.BackgroundTransparency = 0.600
+WhiteUnstable.Position = UDim2.new(0.208007812, 0, 0.566951632, 0)
+WhiteUnstable.Size = UDim2.new(0, 200, 0, 50)
+WhiteUnstable.Font = Enum.Font.Code
+WhiteUnstable.Text = "White Crystal [UNSTABLE]"
+WhiteUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+WhiteUnstable.TextSize = 14.000
+WhiteUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1298.41711, 224.450073, -120.999443, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+PurpleNormal.Name = "PurpleNormal"
+PurpleNormal.Parent = ExploitFrame
+PurpleNormal.BackgroundColor3 = Color3.fromRGB(147, 38, 255)
+PurpleNormal.BackgroundTransparency = 0.600
+PurpleNormal.Position = UDim2.new(0.208007812, 0, 0.648148239, 0)
+PurpleNormal.Size = UDim2.new(0, 200, 0, 50)
+PurpleNormal.Font = Enum.Font.Code
+PurpleNormal.Text = "Purple Crystal [NORMAL]"
+PurpleNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+PurpleNormal.TextSize = 14.000
+PurpleNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1392.38721, 156.369965, 54.1505089, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+PurpleDarkcore.Name = "PurpleDarkcore"
+PurpleDarkcore.Parent = ExploitFrame
+PurpleDarkcore.BackgroundColor3 = Color3.fromRGB(147, 38, 255)
+PurpleDarkcore.BackgroundTransparency = 0.600
+PurpleDarkcore.Position = UDim2.new(0.208007812, 0, 0.739316344, 0)
+PurpleDarkcore.Size = UDim2.new(0, 200, 0, 50)
+PurpleDarkcore.Font = Enum.Font.Code
+PurpleDarkcore.Text = "Purple Crystal [DARKCORE]"
+PurpleDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+PurpleDarkcore.TextSize = 14.000
+PurpleDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1220.76697, 237.810089, -1000.69946, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+PurpleUnstable.Name = "PurpleUnstable"
+PurpleUnstable.Parent = ExploitFrame
+PurpleUnstable.BackgroundColor3 = Color3.fromRGB(147, 38, 255)
+PurpleUnstable.BackgroundTransparency = 0.600
+PurpleUnstable.Position = UDim2.new(0.208007812, 0, 0.826210916, 0)
+PurpleUnstable.Size = UDim2.new(0, 200, 0, 50)
+PurpleUnstable.Font = Enum.Font.Code
+PurpleUnstable.Text = "Purple Crystal [UNSTABLE]"
+PurpleUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+PurpleUnstable.TextSize = 14.000
+PurpleUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-696.077454, 306.519928, -642.739319, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+OrangeNormal.Name = "OrangeNormal"
+OrangeNormal.Parent = ExploitFrame
+OrangeNormal.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+OrangeNormal.BackgroundTransparency = 0.600
+OrangeNormal.Position = UDim2.new(0.208007812, 0, 0.911680996, 0)
+OrangeNormal.Size = UDim2.new(0, 200, 0, 50)
+OrangeNormal.Font = Enum.Font.Code
+OrangeNormal.Text = "Orange Crystal [NORMAL]"
+OrangeNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+OrangeNormal.TextSize = 14.000
+OrangeNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1696.79749, 163.719971, -173.369476, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+OrangeDarkcore.Name = "OrangeDarkcore"
+OrangeDarkcore.Parent = ExploitFrame
+OrangeDarkcore.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+OrangeDarkcore.BackgroundTransparency = 0.600
+OrangeDarkcore.Position = UDim2.new(0.416015625, 0, -0.0014244318, 0)
+OrangeDarkcore.Size = UDim2.new(0, 200, 0, 50)
+OrangeDarkcore.Font = Enum.Font.Code
+OrangeDarkcore.Text = "Orange Crystal [DARKCORE]"
+OrangeDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+OrangeDarkcore.TextSize = 14.000
+OrangeDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-663.797424, 227.350021, 840.510376, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+OrangeUnstable.Name = "OrangeUnstable"
+OrangeUnstable.Parent = ExploitFrame
+OrangeUnstable.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+OrangeUnstable.BackgroundTransparency = 0.600
+OrangeUnstable.Position = UDim2.new(0.416015625, 0, 0.084045656, 0)
+OrangeUnstable.Size = UDim2.new(0, 200, 0, 50)
+OrangeUnstable.Font = Enum.Font.Code
+OrangeUnstable.Text = "Orange Crystal [UNSTABLE]"
+OrangeUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+OrangeUnstable.TextSize = 14.000
+OrangeUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(370.872681, 2.04998589, -961.349548, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+BlackNormal.Name = "BlackNormal"
+BlackNormal.Parent = ExploitFrame
+BlackNormal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackNormal.BackgroundTransparency = 0.600
+BlackNormal.Position = UDim2.new(0.416015625, 0, 0.183760762, 0)
+BlackNormal.Size = UDim2.new(0, 200, 0, 50)
+BlackNormal.Font = Enum.Font.Code
+BlackNormal.Text = "Black Crystal [NORMAL]"
+BlackNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlackNormal.TextSize = 14.000
+BlackNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2297.42749, 167.890015, 439.150269, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+BlackDarkcore.Name = "BlackDarkcore"
+BlackDarkcore.Parent = ExploitFrame
+BlackDarkcore.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackDarkcore.BackgroundTransparency = 0.600
+BlackDarkcore.Position = UDim2.new(0.416015625, 0, 0.279202342, 0)
+BlackDarkcore.Size = UDim2.new(0, 200, 0, 50)
+BlackDarkcore.Font = Enum.Font.Code
+BlackDarkcore.Text = "Black Crystal [DARKCORE]"
+BlackDarkcore.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlackDarkcore.TextSize = 14.000
+BlackDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2588.32837, 191.430084, 97.0405502, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+BlackUnstable.Name = "BlackUnstable"
+BlackUnstable.Parent = ExploitFrame
+BlackUnstable.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackUnstable.BackgroundTransparency = 0.600
+BlackUnstable.Position = UDim2.new(0.416015625, 0, 0.377492934, 0)
+BlackUnstable.Size = UDim2.new(0, 200, 0, 50)
+BlackUnstable.Font = Enum.Font.Code
+BlackUnstable.Text = "Black Crystal [UNSTABLE]"
+BlackUnstable.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlackUnstable.TextSize = 14.000
+BlackUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-101.297478, 207.210068, 1347.38098, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+GreenNormal.Name = "GreenNormal"
+GreenNormal.Parent = ExploitFrame
+GreenNormal.BackgroundColor3 = Color3.fromRGB(0, 255, 17)
+GreenNormal.BackgroundTransparency = 0.600
+GreenNormal.Position = UDim2.new(0.416015625, 0, 0.477208048, 0)
+GreenNormal.Size = UDim2.new(0, 200, 0, 50)
+GreenNormal.Font = Enum.Font.Code
+GreenNormal.Text = "Green Crystal [NORMAL]"
+GreenNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+GreenNormal.TextSize = 14.000
+GreenNormal.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2112.39697, 157.099808, -234.989471, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+GreenDarkcore.Name = "GreenDarkcore"
+GreenDarkcore.Parent = ExploitFrame
+GreenDarkcore.BackgroundColor3 = Color3.fromRGB(0, 255, 17)
+GreenDarkcore.BackgroundTransparency = 0.600
+GreenDarkcore.Position = UDim2.new(0.416015625, 0, 0.566951632, 0)
+GreenDarkcore.Size = UDim2.new(0, 200, 0, 50)
+GreenDarkcore.Font = Enum.Font.Code
+GreenDarkcore.Text = "Green Crystal [DARKCORE]"
+GreenDarkcore.TextColor3 = Color3.fromRGB(0, 0, 0)
+GreenDarkcore.TextSize = 14.000
+GreenDarkcore.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2067.38062, 256.709991, -195.219498, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+GreenUnstable.Name = "GreenUnstable"
+GreenUnstable.Parent = ExploitFrame
+GreenUnstable.BackgroundColor3 = Color3.fromRGB(0, 255, 17)
+GreenUnstable.BackgroundTransparency = 0.600
+GreenUnstable.Position = UDim2.new(0.416015625, 0, 0.648148239, 0)
+GreenUnstable.Size = UDim2.new(0, 200, 0, 50)
+GreenUnstable.Font = Enum.Font.Code
+GreenUnstable.Text = "Green Crystal [UNSTABLE]"
+GreenUnstable.TextColor3 = Color3.fromRGB(0, 0, 0)
+GreenUnstable.TextSize = 14.000
+GreenUnstable.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2185.48633, 202.939972, -830.259216, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+Credits.Name = "Credits"
+Credits.Parent = ExploitFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 0.900
+Credits.Position = UDim2.new(0.431640625, 0, 0.730769217, 0)
+Credits.Size = UDim2.new(0, 391, 0, 92)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "This script was made by XynExploitsShare. ENJOY!"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
