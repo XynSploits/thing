@@ -1,0 +1,157 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ExploitUI = Instance.new("ScreenGui")
+local ExploitFrame = Instance.new("Frame")
+local ExploitBackground = Instance.new("ImageLabel")
+local Money = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local BeachTeleport = Instance.new("TextButton")
+local FaceShopTeleport = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local HatShopTeleport = Instance.new("TextButton")
+local AdoptionCenterTeleport = Instance.new("TextButton")
+
+--Properties:
+
+ExploitUI.Name = "ExploitUI"
+ExploitUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ExploitFrame.Name = "ExploitFrame"
+ExploitFrame.Parent = ExploitUI
+ExploitFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExploitFrame.BackgroundTransparency = 1.000
+ExploitFrame.Position = UDim2.new(0.159547746, 0, 0.189473689, 0)
+ExploitFrame.Size = UDim2.new(0, 1049, 0, 570)
+ExploitFrame.Active = true
+ExploitFrame.Draggable = true
+
+ExploitBackground.Name = "ExploitBackground"
+ExploitBackground.Parent = ExploitFrame
+ExploitBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExploitBackground.Position = UDim2.new(0.0867492855, 0, -0.0473684222, 0)
+ExploitBackground.Selectable = true
+ExploitBackground.Size = UDim2.new(0, 1018, 0, 597)
+ExploitBackground.Image = "rbxassetid://279117274"
+
+Money.Name = "Money"
+Money.Parent = ExploitBackground
+Money.BackgroundColor3 = Color3.fromRGB(0, 4, 255)
+Money.BackgroundTransparency = 0.900
+Money.Position = UDim2.new(0.100196466, 0, 0.229480743, 0)
+Money.Size = UDim2.new(0, 250, 0, 46)
+Money.Font = Enum.Font.GothamBold
+Money.Text = "MONEY"
+Money.TextColor3 = Color3.fromRGB(0, 0, 0)
+Money.TextScaled = true
+Money.TextSize = 14.000
+Money.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Money.TextStrokeTransparency = 0.000
+Money.TextWrapped = true
+Money.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.NetworkEvent:FireServer("AwardCash", 99999999)
+end)
+
+Title.Name = "Title"
+Title.Parent = ExploitBackground
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.315324157, 0, 0, 0)
+Title.Size = UDim2.new(0, 442, 0, 35)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "Adopt and Raise a Baby I By XynExploits"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+BeachTeleport.Name = "BeachTeleport"
+BeachTeleport.Parent = ExploitBackground
+BeachTeleport.BackgroundColor3 = Color3.fromRGB(0, 4, 255)
+BeachTeleport.BackgroundTransparency = 0.900
+BeachTeleport.Position = UDim2.new(0.383104116, 0, 0.229480743, 0)
+BeachTeleport.Size = UDim2.new(0, 250, 0, 46)
+BeachTeleport.Font = Enum.Font.GothamBold
+BeachTeleport.Text = "BEACH"
+BeachTeleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeachTeleport.TextScaled = true
+BeachTeleport.TextSize = 14.000
+BeachTeleport.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BeachTeleport.TextStrokeTransparency = 0.000
+BeachTeleport.TextWrapped = true
+BeachTeleport.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(117.482086, -6.07078695, -421.520203, 0.0612525307, -2.06053148e-08, -0.998122275, 4.54704221e-08, 1, -1.78536599e-08, 0.998122275, -4.42914576e-08, 0.0612525307)
+end)
+
+FaceShopTeleport.Name = "FaceShopTeleport"
+FaceShopTeleport.Parent = ExploitBackground
+FaceShopTeleport.BackgroundColor3 = Color3.fromRGB(0, 4, 255)
+FaceShopTeleport.BackgroundTransparency = 0.900
+FaceShopTeleport.Position = UDim2.new(0.699410558, 0, 0.229480743, 0)
+FaceShopTeleport.Size = UDim2.new(0, 250, 0, 46)
+FaceShopTeleport.Font = Enum.Font.GothamBold
+FaceShopTeleport.Text = "FACE SHOP"
+FaceShopTeleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+FaceShopTeleport.TextScaled = true
+FaceShopTeleport.TextSize = 14.000
+FaceShopTeleport.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FaceShopTeleport.TextStrokeTransparency = 0.000
+FaceShopTeleport.TextWrapped = true
+FaceShopTeleport.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19.2872105, 3.60541177, -192.156342, -0.0303391367, 2.25733316e-08, -0.999539673, 1.76069683e-08, 1, 2.20493011e-08, 0.999539673, -1.69299064e-08, -0.0303391367)
+end)
+
+Close.Name = "Close"
+Close.Parent = ExploitBackground
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.BackgroundTransparency = 0.900
+Close.Position = UDim2.new(0.926326156, 0, 0, 0)
+Close.Size = UDim2.new(0, 75, 0, 35)
+Close.Font = Enum.Font.GothamBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextStrokeTransparency = 0.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	ExploitFrame.Visible = false
+end)
+
+HatShopTeleport.Name = "HatShopTeleport"
+HatShopTeleport.Parent = ExploitBackground
+HatShopTeleport.BackgroundColor3 = Color3.fromRGB(0, 4, 255)
+HatShopTeleport.BackgroundTransparency = 0.900
+HatShopTeleport.Position = UDim2.new(0.100196421, 0, 0.363484085, 0)
+HatShopTeleport.Size = UDim2.new(0, 250, 0, 46)
+HatShopTeleport.Font = Enum.Font.GothamBold
+HatShopTeleport.Text = "HAT SHOP"
+HatShopTeleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+HatShopTeleport.TextScaled = true
+HatShopTeleport.TextSize = 14.000
+HatShopTeleport.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+HatShopTeleport.TextStrokeTransparency = 0.000
+HatShopTeleport.TextWrapped = true
+HatShopTeleport.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19.6910076, 3.60193586, -120.880333, 0.062467508, -5.89029945e-08, -0.998046994, -7.09241599e-09, 1, -5.94621703e-08, 0.998046994, 1.0793018e-08, 0.062467508)
+end)
+
+AdoptionCenterTeleport.Name = "AdoptionCenterTeleport"
+AdoptionCenterTeleport.Parent = ExploitBackground
+AdoptionCenterTeleport.BackgroundColor3 = Color3.fromRGB(0, 4, 255)
+AdoptionCenterTeleport.BackgroundTransparency = 0.900
+AdoptionCenterTeleport.Position = UDim2.new(0.383104086, 0, 0.363484085, 0)
+AdoptionCenterTeleport.Size = UDim2.new(0, 250, 0, 46)
+AdoptionCenterTeleport.Font = Enum.Font.GothamBold
+AdoptionCenterTeleport.Text = "Adoption Center"
+AdoptionCenterTeleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdoptionCenterTeleport.TextScaled = true
+AdoptionCenterTeleport.TextSize = 14.000
+AdoptionCenterTeleport.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AdoptionCenterTeleport.TextStrokeTransparency = 0.000
+AdoptionCenterTeleport.TextWrapped = true
+	AdoptionCenterTeleport.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(58.9407959, 3.49999928, -249.083084, 0.999965727, 2.82675411e-10, -0.00827690773, -2.83035984e-10, 1, -4.2389911e-11, 0.00827690773, 4.47311216e-11, 0.999965727)
+	end)
